@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Someshwar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800 shadow-sm">
+      <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <!-- Brand with ST Logo -->
+          <a href="#home" class="flex items-center gap-3">
+            <div class="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-tr from-indigo-500 to-purple-600 shadow-md shadow-indigo-500/40">
+              <span class="text-sm font-bold text-white">ST</span>
+            </div>
+            <span class="text-xl font-semibold tracking-tight text-indigo-400">
+              Someshwar
+            </span>
+          </a>
+
+          <div class="flex items-center gap-4">
+            <!-- Desktop Nav -->
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+              <a href="#home" class="transition-colors hover:text-indigo-400">
+                Home
+              </a>
+              <a href="#about" class="transition-colors hover:text-indigo-400">
+                About
+              </a>
+              <a href="#projects" class="transition-colors hover:text-indigo-400">
+                Projects
+              </a>
+              <a href="#skills" class="transition-colors hover:text-indigo-400">
+                Skills
+              </a>
+              <a href="#contact" class="transition-colors hover:text-indigo-400">
+                Contact
+              </a>
+            </div>
+
+            <!-- Desktop CTA -->
+            <div class="hidden md:block">
+              <a
+                href="#contact"
+                class="inline-flex items-center rounded-full bg-indigo-500 px-4 py-2 text-sm font-semibold text-white shadow-sm shadow-indigo-500/30 transition hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >
+                Hire Me
+              </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <label
+              for="nav-toggle"
+              class="md:hidden inline-flex items-center justify-center rounded-full border border-slate-700 bg-slate-900/80 p-2 shadow-sm shadow-slate-900/50 transition hover:border-indigo-500 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/npm/heroicons@latest/24/outline/bars-3.svg"
+                alt="Open navigation menu"
+                class="h-6 w-6 invert"
+              />
+            </label>
+          </div>
+        </div>
+
+        <!-- Mobile Nav Toggle -->
+        <input id="nav-toggle" type="checkbox" class="peer hidden" />
+
+        <!-- Mobile Menu -->
+        <div class="mt-2 space-y-1 pb-4 md:hidden hidden peer-checked:block">
+          <a
+            href="#home"
+            class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-900 hover:text-indigo-400"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-900 hover:text-indigo-400"
+          >
+            About
+          </a>
+          <a
+            href="#projects"
+            class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-900 hover:text-indigo-400"
+          >
+            Projects
+          </a>
+          <a
+            href="#skills"
+            class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-900 hover:text-indigo-400"
+          >
+            Skills
+          </a>
+          <a
+            href="#contact"
+            class="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-slate-900 hover:text-indigo-400"
+          >
+            Contact
+          </a>
+          <a
+            href="#contact"
+            class="mt-2 block rounded-full bg-indigo-500 px-4 py-2 text-center text-sm font-semibold text-white shadow-sm shadow-indigo-500/30 transition hover:bg-indigo-600"
+          >
+            Hire Me
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section
+  id="home"
+  class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-100"
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+    <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+      <!-- Text Content -->
+      <div class="space-y-6">
+        <p class="text-sm font-semibold tracking-wide text-indigo-400 uppercase">
+          Hello, I'm Someshwar
+        </p>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
+          AI &amp; Front-End Developer
+        </h1>
+        <p class="text-base sm:text-lg text-slate-300 max-w-xl">
+          I build clean, responsive, and AI-powered web applications that blend
+          modern design with powerful machine learning to solve real-world
+          problems.
+        </p>
+
+        <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 pt-2">
+          <a
+            href="#projects"
+            class="inline-flex items-center justify-center rounded-full bg-indigo-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md shadow-indigo-500/40 transition hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+          >
+            View Projects
+          </a>
+          <a
+            href="#contact"
+            class="inline-flex items-center justify-center rounded-full border border-slate-700 bg-slate-900/60 px-6 py-2.5 text-sm font-semibold text-slate-100 shadow-sm shadow-slate-900/60 transition hover:border-indigo-400 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+          >
+            Contact Me
+          </a>
+        </div>
+
+        <div class="flex items-center gap-4 pt-4 text-xs sm:text-sm text-slate-400">
+          <div class="flex items-center gap-2">
+            <span class="inline-flex h-2 w-2 rounded-full bg-emerald-400"></span>
+            <span>Open to internships &amp; freelance work</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="relative">
+        <div
+          class="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-indigo-500/30 via-sky-500/10 to-purple-500/20 blur-2xl"
+        ></div>
+        <div
+          class="relative rounded-3xl border border-slate-800/80 bg-slate-900/80 shadow-2xl shadow-slate-950/80 overflow-hidden"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+            alt="Developer desk setup with code on screen"
+            class="h-full w-full object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="bg-slate-950 text-slate-100">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-4">
+        About Me
+      </h2>
+      <p class="text-sm font-semibold text-indigo-400 mb-3">
+        B.Tech Student · AI/ML &amp; Front-End Intern
+      </p>
+      <p class="text-base sm:text-lg text-slate-300 leading-relaxed">
+        I am a B.Tech student who loves building clean, responsive web
+        interfaces and intelligent AI-powered solutions. As an AI/ML and
+        front-end intern, I enjoy turning ideas into real projects using modern
+        tools and frameworks. My focus is on writing reliable code, crafting
+        thoughtful user experiences, and exploring how AI can enhance everyday
+        products.
+      </p>
+    </div>
+
+    <div class="mt-10 grid gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Card 1 -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 px-5 py-6 flex flex-col gap-2"
+      >
+        <h3 class="text-base sm:text-lg font-semibold text-slate-100">
+          Internship Experience
+        </h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Hands-on work as an AI/ML &amp; front-end intern, building models,
+          dashboards, and responsive interfaces that solve real problems for
+          real users.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 px-5 py-6 flex flex-col gap-2"
+      >
+        <h3 class="text-base sm:text-lg font-semibold text-slate-100">
+          Real Projects
+        </h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Experience working on complete end-to-end projects, from data and
+          logic to UI, including AI-powered apps, dashboards, and portfolio-ready
+          case studies.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 px-5 py-6 flex flex-col gap-2 sm:col-span-2 lg:col-span-1"
+      >
+        <h3 class="text-base sm:text-lg font-semibold text-slate-100">
+          Prompt Engineering Skills
+        </h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          Skilled in designing structured prompts for ChatGPT and other LLMs to
+          generate clean code, documentation, and AI workflows tailored to
+          specific tasks and products.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="bg-slate-950 text-slate-100">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="max-w-2xl mb-10">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+        My Skills
+      </h2>
+      <p class="text-base sm:text-lg text-slate-300">
+        A focused set of modern development, programming, and AI skills that I
+        use to build clean, scalable, and intelligent applications.
+      </p>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <!-- Front-End -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 p-6"
+      >
+        <h3 class="text-base sm:text-lg font-semibold mb-4">Front-End</h3>
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >HTML</span
+          >
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >CSS</span
+          >
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >Tailwind</span
+          >
+        </div>
+      </div>
+
+      <!-- Programming -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 p-6"
+      >
+        <h3 class="text-base sm:text-lg font-semibold mb-4">Programming</h3>
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >Python</span
+          >
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >Java</span
+          >
+        </div>
+      </div>
+
+      <!-- AI / ML -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 p-6"
+      >
+        <h3 class="text-base sm:text-lg font-semibold mb-4">AI / ML</h3>
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >Machine Learning</span
+          >
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >Deep Learning</span
+          >
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/70 shadow-lg shadow-slate-950/70 p-6"
+      >
+        <h3 class="text-base sm:text-lg font-semibold mb-4">Tools</h3>
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >Git</span
+          >
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >GitHub</span
+          >
+          <span
+            class="rounded-full bg-indigo-500/10 border border-indigo-500/30 px-3 py-1 text-xs font-medium text-indigo-300"
+            >AI Tools</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="bg-slate-950 text-slate-100">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+          My Projects
+        </h2>
+        <p class="text-base sm:text-lg text-slate-300 max-w-2xl">
+          A selection of real-world projects where I combine clean UI, solid engineering, and AI-driven features.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Project 1 -->
+      <article
+        class="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 shadow-lg shadow-slate-950/70 transition hover:-translate-y-1 hover:border-indigo-500/70 hover:shadow-xl hover:shadow-indigo-500/20"
+      >
+        <h3 class="text-lg font-semibold mb-2">
+          Boston House Price Prediction
+        </h3>
+        <p class="text-sm text-slate-300 mb-4">
+          Regression-based ML model that predicts Boston house prices using key neighborhood, structural, and demographic features.
+        </p>
+
+        <div class="mb-4">
+          <p class="text-xs font-semibold text-slate-400 uppercase mb-2">
+            Tech Stack
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              Python
+            </span>
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              Scikit-Learn
+            </span>
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              Pandas
+            </span>
+          </div>
+        </div>
+
+        <a
+          href="https://github.com/someshwar-tripathi/boston-house-price-prediction"
+          class="inline-flex items-center justify-center rounded-full bg-indigo-500 px-4 py-2 text-xs font-semibold text-white shadow-sm shadow-indigo-500/40 transition group-hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+        >
+          Live Demo
+        </a>
+      </article>
+
+      <!-- Project 2 -->
+      <article
+        class="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 shadow-lg shadow-slate-950/70 transition hover:-translate-y-1 hover:border-indigo-500/70 hover:shadow-xl hover:shadow-indigo-500/20"
+      >
+        <h3 class="text-lg font-semibold mb-2">
+          AI Image Tagging System
+        </h3>
+        <p class="text-sm text-slate-300 mb-4">
+          Convolutional neural network that automatically generates tags for images to improve search, discovery, and dataset organization.
+        </p>
+
+        <div class="mb-4">
+          <p class="text-xs font-semibold text-slate-400 uppercase mb-2">
+            Tech Stack
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              Python
+            </span>
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              TensorFlow
+            </span>
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              CNN
+            </span>
+          </div>
+        </div>
+
+        <a
+          href="https://github.com/someshwar-tripathi/ai-image-tagging"
+          class="inline-flex items-center justify-center rounded-full bg-indigo-500 px-4 py-2 text-xs font-semibold text-white shadow-sm shadow-indigo-500/40 transition group-hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+        >
+          Live Demo
+        </a>
+      </article>
+
+      <!-- Project 3 -->
+      <article
+        class="group rounded-2xl border border-slate-800 bg-slate-900/70 p-6 shadow-lg shadow-slate-950/70 transition hover:-translate-y-1 hover:border-indigo-500/70 hover:shadow-xl hover:shadow-indigo-500/20"
+      >
+        <h3 class="text-lg font-semibold mb-2">
+          AI-Assisted Portfolio Generator
+        </h3>
+        <p class="text-sm text-slate-300 mb-4">
+          Prompt-driven tool that uses LLMs to generate responsive portfolio layouts with clean code and Tailwind-based designs.
+        </p>
+
+        <div class="mb-4">
+          <p class="text-xs font-semibold text-slate-400 uppercase mb-2">
+            Tech Stack
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              HTML
+            </span>
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              Tailwind CSS
+            </span>
+            <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-[11px] font-medium text-indigo-300">
+              Prompt Engineering
+            </span>
+          </div>
+        </div>
+
+        <a
+          href="https://someshwar.dev/projects/ai-portfolio-generator"
+          class="inline-flex items-center justify-center rounded-full bg-indigo-500 px-4 py-2 text-xs font-semibold text-white shadow-sm shadow-indigo-500/40 transition group-hover:bg-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+        >
+          Live Demo
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="contact" class="bg-slate-950 text-slate-100">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="max-w-2xl mb-10">
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
+        Get In Touch
+      </h2>
+      <p class="text-base sm:text-lg text-slate-300">
+        Whether you want to discuss a project, internship opportunity, or just say
+        hello, feel free to drop a message. I usually respond within a day.
+      </p>
+    </div>
+
+    <div class="grid gap-8 lg:grid-cols-2 lg:items-start">
+      <!-- Contact Info -->
+      <div class="space-y-4 text-sm sm:text-base text-slate-300">
+        <p>
+          I am currently a B.Tech student and AI/ML &amp; front-end intern, actively
+          looking for opportunities to work on real-world projects, internships,
+          and collaborations.
+        </p>
+        <p>
+          Share a bit about what you have in mind, and I will get back to you with
+          next steps, ideas, or questions to move things forward.
+        </p>
+
+        <div class="pt-2 space-y-3">
+          <p class="text-sm font-semibold text-slate-400 uppercase tracking-wide">
+            Preferred Contact
+          </p>
+          <p>
+            Email:
+            <span class="text-indigo-300 font-medium">
+              someshwar.dev@gmail.com
+            </span>
+          </p>
+          <p>
+            Mobile:
+            <span class="text-indigo-300 font-medium">
+              +91-98765-43210
+            </span>
+          </p>
+          <p>Location: <span class="text-indigo-300">India (IST)</span></p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div
+        class="rounded-2xl border border-slate-800 bg-slate-900/80 shadow-xl shadow-slate-950/80 p-6 sm:p-7"
+      >
+        <form action="#" method="POST" class="space-y-5">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label
+                for="name"
+                class="block text-sm font-medium text-slate-200 mb-1.5"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                autocomplete="name"
+                class="block w-full rounded-xl border border-slate-700 bg-slate-950/60 px-3 py-2.5 text-sm text-slate-100 shadow-inner shadow-slate-950/60 outline-none ring-0 transition placeholder:text-slate-500 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+                placeholder="Enter your full name"
+              />
+            </div>
+
+            <div>
+              <label
+                for="email"
+                class="block text-sm font-medium text-slate-200 mb-1.5"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+                class="block w-full rounded-xl border border-slate-700 bg-slate-950/60 px-3 py-2.5 text-sm text-slate-100 shadow-inner shadow-slate-950/60 outline-none ring-0 transition placeholder:text-slate-500 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+                placeholder="you@example.com"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label
+              for="phone"
+              class="block text-sm font-medium text-slate-200 mb-1.5"
+            >
+              Mobile Number
+              <span class="text-xs font-normal text-slate-400">(optional)</span>
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              autocomplete="tel"
+              pattern="[0-9+\-\s]{8,20}"
+              class="block w-full rounded-xl border border-slate-700 bg-slate-950/60 px-3 py-2.5 text-sm text-slate-100 shadow-inner shadow-slate-950/60 outline-none ring-0 transition placeholder:text-slate-500 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+              placeholder="+91-98765-43210"
+            />
+            <p class="mt-1 text-[11px] text-slate-400">
+              Add your phone number if you prefer a quick call or WhatsApp reply.
+            </p>
+          </div>
+
+          <div>
+            <label
+              for="message"
+              class="block text-sm font-medium text-slate-200 mb-1.5"
+            >
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              required
+              class="block w-full rounded-xl border border-slate-700 bg-slate-950/60 px-3 py-2.5 text-sm text-slate-100 shadow-inner shadow-slate-950/60 outline-none ring-0 transition resize-y placeholder:text-slate-500 focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/60 focus:ring-offset-2 focus:ring-offset-slate-950"
+              placeholder="Share project details, timelines, or how you would like to collaborate"
+            ></textarea>
+          </div>
+
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3 pt-2">
+            <button
+              type="submit"
+              class="inline-flex w-full sm:w-auto items-center justify-center rounded-full bg-indigo-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md shadow-indigo-500/40 transition hover:bg-indigo-600 hover:shadow-lg hover:shadow-indigo-500/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+            >
+              Send Message
+            </button>
+            <p class="text-[11px] sm:text-xs text-slate-400">
+              By submitting, you agree to be contacted regarding your query or project.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-slate-950 border-t border-slate-800 text-slate-300">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 items-start">
+      <!-- Brand / Logo -->
+      <div>
+        <div
+          class="inline-flex items-center justify-center rounded-full bg-gradient-to-tr from-indigo-500 to-purple-600 px-5 py-2 shadow-md shadow-indigo-500/40 mb-3"
+        >
+          <span class="text-base font-bold tracking-wide text-white">
+            Someshwar
+          </span>
+        </div>
+        <p class="text-sm leading-relaxed text-slate-300">
+          AI & Front-End Developer focused on building clean, responsive, and
+          intelligent web applications.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4
+          class="text-sm font-semibold uppercase tracking-wide text-slate-400 mb-3"
+        >
+          Quick Links
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a href="#home" class="hover:text-indigo-400 transition">Home</a>
+          </li>
+          <li>
+            <a href="#projects" class="hover:text-indigo-400 transition"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-indigo-400 transition"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Social & Contact -->
+      <div>
+        <h4
+          class="text-sm font-semibold uppercase tracking-wide text-slate-400 mb-3"
+        >
+          Connect With Me
+        </h4>
+
+        <div class="flex items-center gap-4 mb-4">
+          <!-- GitHub -->
+          <a
+            href="https://github.com/someshwar-tripathi"
+            class="group rounded-full border border-slate-700 bg-slate-900 p-3 shadow hover:border-indigo-400 hover:shadow-indigo-500/30 transition transform hover:-translate-y-1"
+            aria-label="GitHub"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/heroicons@latest/24/outline/code-bracket.svg"
+              class="h-5 w-5 invert brightness-200 group-hover:brightness-[250%] transition"
+              alt="GitHub"
+            />
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com"
+            class="group rounded-full border border-slate-700 bg-slate-900 p-3 shadow hover:border-indigo-400 hover:shadow-indigo-500/30 transition transform hover:-translate-y-1"
+            aria-label="LinkedIn"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/heroicons@latest/24/outline/briefcase.svg"
+              class="h-5 w-5 invert brightness-200 group-hover:brightness-[250%] transition"
+              alt="LinkedIn"
+            />
+          </a>
+
+          <!-- Email -->
+          <a
+            href="mailto:someshwar.dev@gmail.com"
+            class="group rounded-full border border-slate-700 bg-slate-900 p-3 shadow hover:border-indigo-400 hover:shadow-indigo-500/30 transition transform hover:-translate-y-1"
+            aria-label="Email"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/npm/heroicons@latest/24/outline/envelope.svg"
+              class="h-5 w-5 invert brightness-200 group-hover:brightness-[250%] transition"
+              alt="Email"
+            />
+          </a>
+        </div>
+
+        <p class="text-sm">
+          Email:
+          <span class="text-indigo-300 font-medium">
+            someshwar.dev@gmail.com
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div
+      class="mt-10 border-t border-slate-800 pt-5 text-center text-xs text-slate-400"
+    >
+      © 2025 Someshwar. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
